@@ -1,0 +1,641 @@
+body{
+    background-color: #F5F5F5;
+
+    z-index: -1;
+}
+.navbar-home{
+    background-color: black!important;
+  
+
+}
+#home{
+    background-image: url(../imaes/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+.home-layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer-content{
+    color: white;
+    text-align: center;
+    
+    flex-direction: column;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.typing::after{
+    content: "";
+
+    animation-name:typingMove ;
+    animation-duration:15s ;
+    animation-iteration-count: infinite;
+}
+@keyframes typingMove {
+
+    1% {
+        content: " D|";
+    }
+
+    2% {
+        content: " De|";
+    }
+
+    3% {
+        content: " Dev|";
+    }
+
+    4% {
+        content: " Deve|";
+    }
+
+    5% {
+        content: " Devel|";
+    }
+
+    6% {
+        content: " Develo|";
+    }
+
+    7% {
+        content: " Develop|";
+    }
+
+    8% {
+        content: " Develope|";
+    }
+
+    9% {
+        content: " Developer|";
+    }
+   
+
+10%{
+    content: "Develope|";
+}11% {
+    content: " Develop|";
+}12% {
+    content: " Develo|";
+}
+13% {
+    content: " Devel|";
+}
+14% {
+    content: " Deve|";
+}
+
+15% {
+    content: " Dev|";
+}
+
+16% {
+    content: " De|";
+}
+
+
+17% {
+    content: " D|";
+}
+
+17% {
+    content: " |";
+}
+
+20% {
+    content: " D|";
+}
+21% {
+    content: " De|";
+}
+
+22% {
+    content: " Des|";
+}
+23% {
+    content: " Desi|";
+}
+24% {
+    content: " Desig|";
+}
+25% {
+    content: " Design|";
+}
+26% {
+    content: " Designe|";
+}
+27% {
+    content: " Designer|";
+}
+28% {
+    content: " Designe|";
+}
+29% {
+    content: " Design|";
+}
+30% {
+    content: " Desig|";
+}
+
+31% {
+    content: " Desi|";
+}
+
+32% {
+    content: " Des|";
+}
+33% {
+    content: " De|";
+}
+34% {
+    content: " D|";
+}
+35% {
+    content: " |";
+}
+
+38% {
+    content: " F|";
+}
+39% {
+    content: " Fr|";
+}
+
+40% {
+    content: " Fre|";
+}
+41% {
+    content: " Free|";
+}
+42% {
+    content: " Freel|";
+}
+43% {
+    content: " Freela|";
+}
+
+44% {
+    content: " Freelan|";
+}
+
+45% {
+    content: " Freelanc|";
+}
+46% {
+    content: " Freelance|";
+}
+47% {
+    content: " Freelancer|";
+}
+
+50% {
+    content: " Freelance|";
+}
+51% {
+    content: " Freelanc|";
+}
+
+
+52% {
+    content: " Freelan|";
+}
+
+53% {
+    content: " Freela|";
+}
+
+54% {
+    content: " Freel|";
+}
+55% {
+    content: " Free|";
+}
+56% {
+    content: " Fre|";
+}
+57% {
+    content: " Fr|";
+}
+58% {
+    content: " F|";
+}
+59% {
+    content: " |";
+}
+
+
+60% {
+    content: " P|";
+}
+61% {
+    content: " Ph|";
+}
+62% {
+    content: " Pho|";
+}
+
+63% {
+    content: " Phot|";
+}
+64% {
+    content: " Photo|";
+}
+
+65% {
+    content: " Photog|";
+}
+66% {
+    content: " Photogr|";
+}
+
+67% {
+    content: " Photogra|";
+}
+
+68% {
+    content: " Photograp|";
+}
+69% {
+    content: " Photograph|";
+}
+
+70% {
+    content: " Photographe|";
+}
+71% {
+    content: " Photographer|";
+}
+75% {
+    content: " Photographe|";
+}
+76% {
+    content: " Photograph|";
+}
+77% {
+    content: " Photograp|";
+}
+78% {
+    content: " Photogra|";
+}
+79% {
+   content: " Photogr|";
+}
+80% {
+    content: " Photog|";
+}
+81% {
+   content: " Photo|";
+}
+82% {
+    content: " Phot|";
+}
+83% {
+    content: " Pho|";
+}
+84% {
+    content: " Ph|";
+}
+85% {
+    content: " P|";
+}
+86% {
+    content: " |";
+}
+
+
+}
+/* End Home */
+
+/* Start About */
+
+#about-sec{
+    background-color: #ffffff;
+}
+#about h2::after{
+content: "";
+ position: absolute;
+ width: 100px;
+ height: 4px;
+ background-color: #0078FF;
+ left: 0;
+ bottom: -7px;
+}
+#about p{
+
+    line-height: 40px !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* End About */
+
+/* Start Servoces */
+#services h3{
+    display: inline-block;
+    position: relative;
+    
+    z-index: 4;
+    }
+    
+    #services h3:after{
+        content: "";       
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        z-index: -1;
+    }
+    .item {
+        background-color: white;
+        padding: 60px 20px;
+        margin-bottom: 20px;
+        border-radius: 18px;
+     
+        box-shadow: 0px 10px 30px -7px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .item i {
+    
+        background-color: rgb(242, 242, 242);
+        border-radius: 100%;
+        border: 10px solid #0078FF;
+        padding: 55px;
+    
+        transition: 0.5s color, 0.5s backgroound-color;
+    
+    }
+    
+    .item:hover i {
+        background-color: #0078FF;
+        color: white !important;
+        border: 10px solid #CDE1F8;
+    }
+    
+    .services-content {
+        margin-top: 70px;
+    }
+    #services .content-parg::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 6px;
+        background-color: #0078FF;
+        left: 50%;
+        bottom: -15px;
+    }
+    /* End Services */
+/* Start rate section */
+.rate-layer{
+    background-color: rgba(0, 122, 255,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+.rate-icon {
+    margin-top: 120px;
+    padding-block: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+   
+}
+    /* End Rate Section */
+
+    /* statrt portfolio */
+
+#portfolio{
+    margin-top: 50px;
+    padding-block:  100px;
+}
+#portfolio .paragrraph::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background-color: #0078FF;
+    left: 48%;
+    bottom: -15px
+}
+
+.card-portfolio:hover img{
+    transform: scale(1.5,1.5);
+    transition: 1.5s all ease-in-out;
+transition-duration: 2s;
+}
+.card-imag{
+    overflow: hidden;
+}
+
+    /* End portfolio  */
+
+
+
+
+
+
+    /* start Carousel */
+#carousel{
+    background-image: url(../imaes/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-layer{
+    background-color: rgba(16, 16, 251, 0.7);
+}
+
+
+.carousel-indicators [data-bs-target]{
+    background-color:white;
+    border-radius: 80%;
+    margin: 5px 7px;
+    width: 15px;
+    height: 15px;
+    transition: 0.5s background-color;
+    }
+    .carousel-indicators [data-bs-target]:hover{
+        background-color:#343434;
+    }
+    .carousel-indicators .active {
+        transition: 0.5s all;
+    }
+    .carousel-indicators .active:hover {
+        background-color:#869791;
+    }
+    
+    /* End Carousel */
+
+    /* Start Blog Section */
+    #our-Blog .paragrraph::after{
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 6px;
+        background-color: #0078FF;
+        left: 48%;
+        bottom: -15px
+    }
+#our-Blog .headline{
+color: #fff;
+ display: inline-block;
+background-color: #0078FF;
+
+font-size: 1.5rem;
+padding: 10px;
+border-radius: 10px;
+position: absolute;
+top: 250px;
+left: 140px;
+}
+    
+#our-Blog a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+#our-Blog a:hover{
+    color: #0078FF;
+}
+/* End Blog */
+
+/* Start Contact section  */
+
+
+
+#contact-us{
+    margin-top:100px;
+    background-image: url(../imaes/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact-us .contact-layer{
+    background-color:rgba(12, 47, 243, 0.75);
+}
+.contact-cardd{
+    width: 80%;
+}
+
+#contact-us .tittle-contact h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .tittle-contact p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .contact-content h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-us .contact-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#contact-us .contact-icons{
+    margin-top:50px;
+}
+#contact-us .contact-icons p{
+    margin-bottom: 35px;
+}
+#contact-us i{
+    margin-right: 20px;
+    color:#777;
+}
+#contact-us .contact-content .icons-social i{
+    margin-right: 10px;
+    width:50px;
+    height: 50px;
+    line-height: 47px;
+    border:4px solid #2569f0;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .contact-content .icons-social i:hover{
+    color:#fff;
+    background-color:#0078FF;
+    border:4px solid #669fee;
+}
+
+#contact-us .contact-content .icons-social{
+    margin-top:60px;
+    color:#777;
+    
+}
+#contact-us form input,
+#contact-us form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact-us form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+
+
+
+
+.head-contact::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #0078FF;
+    left: 0;
+    bottom: -15px
+
+}
+#contact-us .btn-primary{
+    transition: 0.5s all;
+    background-color: #0779fc;
+    border-radius: 50px;
+   
+}
+#contact-us .btn-primary:hover{
+
+background-color: #3a94fb;
+}
+#contact-us .contact-content i{
+    color: #0078FF;
+}
+
+/*  End   Contact section */
+
+/* Starrt Footer */
+#footer {
+    text-align: center;
+    color:white;
+    padding: 28px 0;
+    background-color:#0062D3;
+  }
+  
+  #footer .copyright-footer {
+    margin-bottom: 0.3rem;
+  }
+  #footer .content-footer a {
+    color: white;
+  }
+
+  #footer .content-footer {
+    margin-bottom: 0;
+  }
+  
+  
+  /* End Footer */
